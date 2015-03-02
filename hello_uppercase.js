@@ -1,3 +1,3 @@
-var hello_uppercase = function(USERNAME) {
-	console.log("Hello" + " " + USERNAME);	
+var hello_uppercase = function(username) {
+	return "Hello" + " " + username.toUpperCase();	
 }
