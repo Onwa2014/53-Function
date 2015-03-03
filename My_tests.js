@@ -21,3 +21,9 @@ TestMyCode.run("testing number_list function", function(assert){
     
     assert.equals(30, result[29], "testing number_list function");
 });
+
+TestMyCode.run("testing number_list function", function(assert){
+    var result = hello_joe("Joe");
+    
+    assert.equals("Hello!", result, "testing hello_joe function");
+});
