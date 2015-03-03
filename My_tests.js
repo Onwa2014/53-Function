@@ -11,7 +11,13 @@ TestMyCode.run("testing hello_uppercase function", function(assert){
 });
 
 TestMyCode.run("testing number_list function", function(assert){
-    var result = number_list();
+    var result = number_list(6);
     
-    assert.equals(1,2,3,4,5, result, "testing number_list function");
+    assert.equals(6, result[5], "testing number_list function");
+});
+
+TestMyCode.run("testing number_list function", function(assert){
+    var result = number_list(30);
+    
+    assert.equals(30, result[29], "testing number_list function");
 });
