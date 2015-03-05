@@ -25,5 +25,12 @@ TestMyCode.run("testing number_list function", function(assert){
 TestMyCode.run("testing number_list function", function(assert){
     var result = hello_joe("Joe");
     
-    assert.equals("Hello!", result, "testing hello_joe function");
+    assert.equals("Hello", result, "testing hello_joe function");
+});
+
+
+TestMyCode.run("testing sum_number", function(assert){
+    var result = sum_number(5);
+    
+    assert.equals(15, result, "testing sum_number function");
 });

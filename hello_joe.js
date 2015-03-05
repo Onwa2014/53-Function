@@ -1,6 +1,6 @@
 var hello_joe = function(USERNAME) {
 	if(USERNAME= "Joe"){
-		return"Hello!";
+		return"Hello";
 	}
 	else if(USERNAME === "Bob"){
 		return"Hello!";
